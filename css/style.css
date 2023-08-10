@@ -1,109 +1,130 @@
-.omnigel{
-    width: 80%;
-    height: 2000px;
-    margin: 0 auto;
-    background-color: #EFDBDD;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0 15% ;
+    background-color: antiquewhite;
+}
+header{
+    width: 70%;
+    height: 65px;
+    display: flex;
+    background: radial-gradient(circle at 10% 20%, rgb(119, 0, 0) 0%, rgb(221, 49, 49) 90%);
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    /* font-family: 'Ysabeau Office', sans-serif; */
+}
+header h1{
+    color: #fff;
+}
+header button{
+    width: 210px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 5px 5px 0px 0px black;
+    border: 0;
+    margin-top: -5px;
+    cursor: pointer;
+    color: darkred;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+header button:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    margin-top: 0px;
+    transition: .1s;
+}
+/* nav qismi */
+
+nav{
+    width: 100%;
+    height: 1300px;
+    background-color: aliceblue;
+    padding-top: 65px;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+}
+.box-top h2{
+    width: 500px;
+    height: 400px;
+    background: linear-gradient(136.47deg, #AE0B0B 11.25%, rgba(174, 11, 11, 0) 65.3%);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 0px 200px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.doctor-img{
+    width: 390px;
+    height: 500px;
+}
+nav img{
+    height: 100%;
+}
+.box-center{
+    width: 100%;
+    height: 100px;
+    border-top: 5px solid #AE0B0B;
+    border-bottom: 5px solid #AE0B0B;
+    background-color: rgba(255, 189, 200, 0.151);
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+}
+.box-center h3{
+    margin: 10% auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.box-profesor{
+    width: 100%;
+    height: 400px;
+    background-color: antiquewhite;
+    margin-top: 80px;
+}
+.box-profesor h3{
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(180.93deg, #FF0606 -7.22%, rgba(255, 6, 6, 0) 32.59%);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+.boxs{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    /* background-color: cadetblue; */
+    justify-content: space-between;
+    margin-top: -140px;
 }
 .box{
     width: 100%;
-    height: 550px;
-    display: flex;
-    justify-content: space-around;
 }
-.com1{
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    background: linear-gradient(157deg, #AE0B0B 0%, rgba(174, 11, 11, 0.00) 100%);
-}
-.com1 h1{
-    text-align: center;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 35px;
-}
-.com2{
-    width: 47%;
-    height: 100%;
-    background-image: url(../image/Rectangle\ 14.png);
-    background-size: cover;
-}
-header{
+.box h2{
     width: 100%;
-    height: 70px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: red;
+    height: 150px;
+    background: linear-gradient(106.08deg, #FF0000 -29.65%, rgba(255, 0, 0, 0) 99.4%);
 }
-header button{
-    width: 170px;
-    height: 57px;
-    border-radius: 50px;
-    background-color: brown;
-    border: none;
-    color: white;
-    font-size: 20px;
-}
-header h1{
-    color: white;
-    font-family: Arial,Helvetica,sans-serif;
-}
-.litl{
-    width: 80%;
-    height: 200px;
-    border: 2px solid red;
-    margin: 0 auto;
-    border-left: none;
-    border-right: none;
-    text-align: center;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 23px;
-}
-.abb{
-    width: 80%;
-    height: 400px;
-}
-.box1{
+.box p{
+    background: rgba(255, 184, 0, 1);
     width: 100%;
-    height: 70%;
-    background: linear-gradient(133deg, #F00 0%, rgba(255, 0, 0, 0.00) 80%);
+    height: 150px;
 }
-.box2{
-    width: 100%;
-    height: 30%;
-    background: #FFB800;
-}
-.box3{
-    width: 44%;
-    height: 100%;
+.boxs img{
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    margin-left: 79%;
-    margin-top: -405px;
-    background: #D9D9D9;
-}
-.box4{
-    width: 35%;
-    height: 200px;
-    border-radius: 50%;
-    margin-top: -490px;
-    background: linear-gradient(181deg, #FF0606, rgba(255, 6, 6, 0.00) 27%);
-}
-.let{
-    width: 85%;
-    height: 100px;
-    border: none solid;
-    background-color: red;
-    border-radius: 50px;
-    margin: 0 auto;
-
-}
-.let h1{
-    text-align: center;
-    color: white;
-    font-family: Arial,Helvetica,sans-serif;
-    padding-top: 25px;
-    font-size: 35px;
+    margin-left: -140px;
 }
