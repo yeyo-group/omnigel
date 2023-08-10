@@ -16,11 +16,37 @@ header img{
     height: 60px;
     border-radius: 20px;
 }
-
-
-
-
-
+.buton1{
+    width: 170px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+}
+.img1{
+   margin-left: 450px;
+}
+.h31{
+    font-family: "PT Sans", sans-serif;
+    color: rgb(149, 236, 149);
+    font-size: 20px;
+}
+.h11{
+    font-family: "PT Sans", sans-serif;
+    font-size: 25px;
+}
+b{
+    font-family: "PT Sans", sans-serif;
+    
+}
+.h44{
+    font-family: "PT Sans", sans-serif;
+}
+.buton2{
+   margin-left: 660px;
+   width: 200px;
+   height: 35px;
+}
 
 
 
