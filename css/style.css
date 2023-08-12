@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     padding: 0 15% ;
     background-color: antiquewhite;
@@ -17,6 +20,7 @@ header{
     font-family: 'Montserrat', sans-serif;
     position: fixed;
     /* font-family: 'Ysabeau Office', sans-serif; */
+    z-index: 2;
 }
 header h1{
     color: #fff;
@@ -43,8 +47,8 @@ header button:hover{
 
 nav{
     width: 100%;
-    height: 5000px;
-    background-color: aliceblue;
+    height: 4400px;
+    background-color: #fff;
     padding-top: 65px;
 }
 .box-top{
@@ -227,6 +231,7 @@ nav img{
     font-size: 100px;
     transform: rotate(20deg);
     color: red;
+    z-index: 0;
 }
 .have p{
     margin-left: 10px;
@@ -322,6 +327,20 @@ nav img{
 }
 .royxat h3{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.omnigel-img{
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+.spn1{
+    text-decoration: line-through;
+
+}
+.spn2{
+    color: red;
 }
 .royxat input{
     width: 90%;
@@ -330,6 +349,8 @@ nav img{
     margin-left: 20px;
     background-color: rgba(186, 182, 182, 0.792);
     border: none;
+    border-radius: 50px;
+    text-align: center;
 }
 .box3 i{
     font-size: 50px;
@@ -341,6 +362,7 @@ nav img{
     height: 80px;
     margin-left: 20px;
     display: flex;
+    margin-bottom: 40px;
 }
 .box3 h6{
     margin-left: 10px;
@@ -350,13 +372,76 @@ nav img{
     width: 100%;
     height: 650px;
 }
+.royxat a{
+    margin:     0px 20%;
+}
+.royxat button{
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 5px 5px 0px 0px #9a9a9a;
+    border: 0;
+    background: radial-gradient(circle at 10% 20%, rgba(119, 0, 0, 0.84) 0%, rgb(221, 49, 49) 90%);
+    margin-top: -5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+.royxat button:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    margin-top: 0px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 100px;
+}
+footer h1{
+    text-align: center;
+}
+.container-sharh{
+    margin: 0 auto;
+    width: 90%;
+    background-color: #792b2b26;
+    margin-top: 50px;
+    padding: 1%;
+    border-radius: 8px;
+}
+.sharh-img{
+    display: flex;
+    align-items: center;
+}
+.sharh-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+.sharh-img h2{
+    margin-left: 20px;
+}
+.container-sharh p{
+    font-size: 18px;
+    margin-top: 10px;
+}
 
 
 /* ----Responsive----- */
 
 @media screen and (max-width: 1000px){
+    body{
+        padding: 0;
+    }
     .box-bottom{
         margin-top: 50px;
+    }
+    header{
+        width: 100%;
     }
 }
 
@@ -366,6 +451,148 @@ nav img{
     }
     header{
         width: 100%;
+    }
+    .sel{
+        margin-top: 120px;
+    }
+    .star{
+        height: 150px;
+    }
+    .have{
+        width: 100%;
+        height: 100%; 
+    }
+    .boc{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-image: url(../image/Ellipse\ 8.png);
+        background-size: cover;
+        
+    }
+    .star i{
+        font-size: 90px;
+    }
+    .have p{
+        font-size: 16px;
+    }
+
+
+    .ten{
+        width: 100%;
+        height: 300px;
+        padding-top: 20px;
+        background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+    }
+    .for{
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+        font-size: 22px;
+    }
+    .for ul{
+        margin-top: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .eight{
+        width: 70%;
+        height: 200px;
+        border-radius: 100px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        background: radial-gradient(circle at 10% 20%, rgb(119, 0, 0) 0%, rgb(221, 49, 49) 90%);
+    }
+    .sev{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .sevn{
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: 10px;
+        background: radial-gradient(circle at 10% 20%, rgb(119, 0, 0) 0%, rgb(221, 49, 49) 90%);
+    }
+    .sevn i{
+        font-size: 120px;
+        margin-left: 50px;
+        margin-top: 20px;
+        color: white;
+    }
+    .eight h1{
+        color: white;
+        margin-left: 20px;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .five{
+        width: 80%;
+        height: 60px;
+        margin: 0 auto;
+        padding-top: 15px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        background: radial-gradient(circle at 10% 20%, rgba(119, 0, 0, 0.84) 0%, rgb(221, 49, 49) 90%);
+    }
+    .five h1{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+    .pur{
+        width: 60%;
+        height: 100px;
+        border-radius: 50px;
+        padding-top: 15px;
+        margin: 0 auto;
+        background: radial-gradient(circle at 10% 20%, rgba(247, 83, 83, 0.84) 0%, rgb(221, 49, 49) 90%);
+    }
+    .pur h3{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(252, 247, 247);
+    }
+    .royxat{
+        width: 70%;
+        height: 400px;
+        border-radius: 20px;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: rgb(227, 227, 227);
+    }
+    .royxat h3{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .royxat input{
+        width: 90%;
+        height: 45px;
+        margin: 0 auto;
+        margin-left: 20px;
+        background-color: rgba(186, 182, 182, 0.792);
+        border: none;
+    }
+    .box3 i{
+        font-size: 50px;
+        margin-top: 10px;
+        color: rgba(0, 0, 255, 0.824);
+    }
+    .box3{
+        width: 90%;
+        height: 80px;
+        margin-left: 20px;
+        display: flex;
+    }
+    .box3 h6{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .sel{
+        width: 100%;
+        height: 520px;
     }
 }
 
@@ -469,6 +696,155 @@ nav img{
         height: 300px;
         border-radius: 50%;
         margin: 0 auto;
+    }
+
+    /* -------------ghgfhgfhgfhfghfghfghfgh------------------ */
+
+    .sel{
+        margin-top: 290px;
+    }
+    .star{
+        height: 120px;
+    }
+    .have{
+        width: 100%;
+        height: 100%; 
+    }
+    .boc{
+        width: 200px;
+        height: 120px;
+        border-radius: 50%;
+        background-image: url(../image/Ellipse\ 8.png);
+        background-size: cover;
+        
+    }
+    .star i{
+        font-size: 70px;
+    }
+    .have p{
+        font-size: 12px;
+    }
+
+
+    .ten{
+        width: 100%;
+        height: 360px;
+        padding-top: 20px;
+        background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+    }
+    .for{
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    .for ul{
+        margin-top: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .for ul li{
+        margin-top: 5px;
+    }
+    .eight{
+        width: 90%;
+        height: 150px;
+        border-radius: 100px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        background: radial-gradient(circle at 10% 20%, rgb(119, 0, 0) 0%, rgb(221, 49, 49) 90%);
+    }
+    .sev{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .sevn{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: 10px;
+        background: radial-gradient(circle at 10% 20%, rgb(119, 0, 0) 0%, rgb(221, 49, 49) 90%);
+    }
+    .sevn i{
+        font-size: 80px;
+        margin-left: 40px;
+        margin-top: 20px;
+        color: white;
+    }
+    .eight h1{
+        color: white;
+        margin-left: 20px;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .five{
+        width: 80%;
+        height: 60px;
+        margin: 0 auto;
+        padding-top: 15px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        background: radial-gradient(circle at 10% 20%, rgba(119, 0, 0, 0.84) 0%, rgb(221, 49, 49) 90%);
+    }
+    .five h1{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 15px;
+    }
+    .pur{
+        width: 90%;
+        height: 100px;
+        border-radius: 50px;
+        padding-top: 15px;
+        margin: 0 auto;
+        background: radial-gradient(circle at 10% 20%, rgba(247, 83, 83, 0.84) 0%, rgb(221, 49, 49) 90%);
+    }
+    .pur h3{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(252, 247, 247);
+    }
+    .royxat{
+        width: 80%;
+        height: 400px;
+        border-radius: 20px;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: rgb(227, 227, 227);
+    }
+    .royxat h3{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .royxat input{
+        width: 90%;
+        height: 45px;
+        margin: 0 auto;
+        margin-left: 20px;
+        background-color: rgba(186, 182, 182, 0.792);
+        border: none;
+    }
+    .box3 i{
+        font-size: 50px;
+        margin-top: 10px;
+        color: rgba(0, 0, 255, 0.824);
+    }
+    .box3{
+        width: 90%;
+        height: 80px;
+        margin-left: 20px;
+        display: flex;
+    }
+    .box3 h6{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .sel{
+        width: 100%;
+        height: 410px;
     }
 }
 
@@ -590,6 +966,171 @@ nav img{
         width: 300px;
         height: 200px;
         border-radius: 50%;
+        margin: 0 auto;
+    }
+
+
+    /* ------------------------------- */
+
+
+    .sel{
+        margin-top: 290px;
+    }
+    .star{
+        height: 120px;
+    }
+    .have{
+        width: 100%;
+        height: 100%; 
+    }
+    .boc{
+        width: 170px;
+        height: 120px;
+        border-radius: 50%;
+        background-image: url(../image/Ellipse\ 8.png);
+        background-size: cover;
+        
+    }
+    .star i{
+        font-size: 0px;
+    }
+    .have p{
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+
+    .ten{
+        width: 100%;
+        min-height: 450px;
+        padding-top: 20px;
+        background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+    }
+    .for{
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    .for ul{
+        margin-top: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .for ul li{
+        margin-top: 5px;
+    }
+    .eight{
+        width: 90%;
+        height: 150px;
+        border-radius: 100px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        background: radial-gradient(circle at 10% 20%, rgb(119, 0, 0) 0%, rgb(221, 49, 49) 90%);
+    }
+    .sev{
+        width: 250px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .sevn{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: 10px;
+        background: radial-gradient(circle at 10% 20%, rgb(119, 0, 0) 0%, rgb(221, 49, 49) 90%);
+    }
+    .sevn i{
+        font-size: 80px;
+        margin-left: 40px;
+        margin-top: 20px;
+        color: white;
+    }
+    .eight h1{
+        color: white;
+        margin-left: 20px;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .five{
+        width: 80%;
+        height: 60px;
+        margin: 0 auto;
+        padding-top: 15px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        background: radial-gradient(circle at 10% 20%, rgba(119, 0, 0, 0.84) 0%, rgb(221, 49, 49) 90%);
+    }
+    .five h1{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 15px;
+    }
+    .pur{
+        width: 90%;
+        height: 100px;
+        border-radius: 50px;
+        padding-top: 20px;
+        margin: 0 auto;
+        background: radial-gradient(circle at 10% 20%, rgba(247, 83, 83, 0.84) 0%, rgb(221, 49, 49) 90%);
+    }
+    .pur h3{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(252, 247, 247);
+        font-size: 15px;
+    }
+    .royxat{
+        width: 85%;
+        height: 400px;
+        border-radius: 20px;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: rgb(227, 227, 227);
+    }
+    .royxat h3{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .royxat input{
+        width: 90%;
+        height: 45px;
+        margin: 0 auto;
+        margin-left: 20px;
+        background-color: rgba(186, 182, 182, 0.792);
+        border: none;
+    }
+    .box3 i{
+        font-size: 50px;
+        margin-top: 10px;
+        color: rgba(0, 0, 255, 0.824);
+    }
+    .box3{
+        width: 90%;
+        height: 80px;
+        margin-left: 20px;
+        display: flex;
+    }
+    .box3 h6{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .sel{
+        width: 100%;
+        height: 410px;
+    }
+    .royxat button{
+        font-size: 15px;
+    }
+    nav{
+        height: 4150px;
+    }
+    .omnigel-img{
+        width: 40%;
+        height: 200px;
+        text-align: center;
         margin: 0 auto;
     }
 }
