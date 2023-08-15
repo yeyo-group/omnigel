@@ -25,10 +25,12 @@ var sendtelegram = function() {
         })
     };
     $.ajax(settings).done(function(response) {
-        console.log(response);
+        alert("TABRIKLAYMIZ! BUYURTMANGIZ QABUL QILINDI. MUTAHASIS TEZ ORADA SIZ BILAN BOG'LANADI!");
+    // window.location.href = 'buy.html'
     });
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
     return false;
+    
 };
 
