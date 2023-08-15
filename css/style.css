@@ -1048,6 +1048,7 @@ footer h1{
         display: flex;
         align-items: center;
         background: radial-gradient(circle at 10% 20%, rgb(119, 0, 0) 0%, rgb(221, 49, 49) 90%);
+        margin-top: 30px;
     }
     .sev{
         width: 250px;
@@ -1136,7 +1137,7 @@ footer h1{
     }
     .box3 h6{
         margin-left: 10px;
-        font-size: 14px;
+        font-size: 1px;
     }
     .sel{
         width: 100%;
@@ -1158,6 +1159,6 @@ footer h1{
         text-align: center;
     }
     .box3 h6{
-        font-size: 13px;
+        font-size: 12px;
     }
 }
